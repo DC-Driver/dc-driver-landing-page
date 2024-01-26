@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
 }
 
@@ -57,7 +57,14 @@ p {
 
 .button-link:hover {
     background-color: #162B42;
-    color: #ddd;
+    color: white;
+}
+
+.logo {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    margin: 10px auto;
 }
 
 @media (max-width: 768px) {
