@@ -125,6 +125,52 @@ p {
     font-size: 1em;
 }
 
+.carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 30s linear infinite;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.carousel-item h3,
+.carousel-item p {
+    margin: 5px 0;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-250px * 8));
+    }
+}
+
+
 @media (max-width: 600px) {
     .team-members {
         flex-direction: column;
