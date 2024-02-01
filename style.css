@@ -70,10 +70,12 @@ p {
 
 .diagram {
     display: block;
-    max-width: 500px;
+    max-width: 100%;
+    width: 90%;
     height: auto;
     margin: 10px auto;
 }
+
 
 .image-link img {
     width: 50px;
