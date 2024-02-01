@@ -23,7 +23,7 @@ body {
 }
 
 .about,
-.test-app {
+.d-app {
     margin-bottom: 2rem;
 }
 
@@ -66,6 +66,17 @@ p {
     height: auto;
     margin: 10px auto;
 }
+
+.image-link img {
+    width: 100px;
+    height: auto;
+    border: 0;
+}
+
+.image-link:hover img {
+    opacity: 0.8;
+}
+
 
 @media (max-width: 768px) {
     .container {
