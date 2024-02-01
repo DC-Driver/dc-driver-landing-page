@@ -87,6 +87,51 @@ p {
     opacity: 0.8;
 }
 
+.team-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    margin: 15px;
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.member p {
+    margin: 0;
+    font-size: 1em;
+}
+
+@media (max-width: 600px) {
+    .team-members {
+        flex-direction: column;
+    }
+}
+
+
 
 @media (max-width: 768px) {
     .container {
