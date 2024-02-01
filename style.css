@@ -68,6 +68,13 @@ p {
     margin: 10px auto;
 }
 
+.diagram {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin: 10px auto;
+}
+
 .image-link img {
     width: 50px;
     height: auto;
