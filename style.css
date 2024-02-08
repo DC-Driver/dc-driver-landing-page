@@ -103,77 +103,30 @@ p {
     opacity: 0.8;
 }
 
-.team-section {
-    text-align: center;
-    margin: 20px;
-}
-
-.team-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.team-members {
+.team-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-.member {
-    margin: 15px;
-    text-align: center;
-}
-
-.member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.member h3 {
-    margin: 5px 0;
-    font-size: 1.2em;
-}
-
-.member p {
-    margin: 0;
-    font-size: 1em;
-}
-
-.carousel {
-    overflow: hidden;
-    width: 100%;
-}
-
-.carousel-track-container {
+.team-member {
     display: flex;
-    width: 100%;
-    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
 }
 
-.carousel-track {
-    display: flex;
-    animation: scroll 30s linear infinite;
-}
-
-.carousel-item {
-    flex: 0 0 auto;
-    width: 250px;
-    margin-right: 15px;
-    text-align: center;
-}
-
-.carousel-item img {
+.team-photo {
     width: 100%;
     height: auto;
-    display: block;
     border-radius: 50%;
 }
 
-.carousel-item h3,
-.carousel-item p {
-    margin: 5px 0;
+.member-name,
+.member-info {
+    text-align: center;
 }
 
 @keyframes scroll {
@@ -203,5 +156,13 @@ p {
 
     .title {
         font-size: 1.5rem;
+    }
+
+    .team-container {
+        justify-content: space-around;
+    }
+
+    .team-member {
+        width: 150px;
     }
 }
