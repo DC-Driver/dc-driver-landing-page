@@ -71,13 +71,13 @@ p {
 .company-logo-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .company-logo {
-    width: 100px;
+    width: 40px;
     height: auto;
 }
 
