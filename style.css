@@ -79,7 +79,10 @@ p {
 .company-logo {
     width: 100px;
     height: auto;
+    min-width: 100px;
+    object-fit: contain;
 }
+
 
 .diagram {
     display: block;
