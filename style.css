@@ -68,6 +68,19 @@ p {
     margin: 10px auto;
 }
 
+.company-logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.company-logo {
+    width: 100px;
+    height: auto;
+}
+
 .diagram {
     display: block;
     max-width: 100%;
