@@ -180,34 +180,57 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    max-width: 300px;
-    margin: auto;
+    justify-content: space-around;
+    padding: 30px;
+    background: #162B42;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    max-width: 340px;
+    margin: 20px auto;
 }
 
 .download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+    padding: 15px;
+    margin: 10px 0;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 25px;
     font-weight: bold;
     font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
 }
 
 .ios {
-    background-color: #0A84FF;
-    /* iOS Blue */
+    background: linear-gradient(45deg, #5eace0, #3681c2);
 }
 
 .android {
-    background-color: #3DDC84;
-    /* Android Green */
+    background: linear-gradient(45deg, #93d7af, #0a8f08);
 }
+
+.download-button:hover {
+    transform: scale(1.05);
+}
+
+.app-download-box h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.ios {
+    background: linear-gradient(45deg, #4D7298, #2E5077);
+}
+
+.android {
+    background: linear-gradient(45deg, #76A5AF, #5D8C9D);
+}
+
 
 
 
