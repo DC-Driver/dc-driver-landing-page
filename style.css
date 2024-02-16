@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #003A63;
     color: #333;
-    border-top: 5px solid #003A63
+    /* border-top: 5px solid #003A63 */
 }
 
 .container {
@@ -14,7 +14,6 @@ body {
     margin: auto;
     padding: 2rem;
     background: #fff;
-    background-color: #003A63;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
