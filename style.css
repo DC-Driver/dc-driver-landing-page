@@ -4,9 +4,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #003A63;
+    background-color: #fff;
     color: #333;
-    border-top: 5px solid #003A63
+    border-top: 5px solid #fff;
 }
 
 .container {
