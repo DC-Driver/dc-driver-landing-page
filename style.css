@@ -206,6 +206,80 @@ main .hero .download-button:hover {
 }
 
 
+.team-section {
+    background-color: #003A63;
+    /* padding: 40px 0; */
+    text-align: center;
+}
+
+.team-section .container {
+    background-color: #ffffff;
+    color: #003A63;
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #003A63;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.team-member {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3,
+.team-member p,
+.team-member a {
+    margin: 10px 0;
+    color: black;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.profile-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.profile-info h3,
+.profile-info p {
+    margin: 5px 0;
+}
+
+.profile-info a {
+    display: inline-block;
+    color: #003A63;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -217,5 +291,21 @@ main .hero .download-button:hover {
 
     nav ul li a {
         padding: 10px 0;
+    }
+
+    .team-section .team-member {
+        width: calc(50% - 20px);
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .team-section .team-member {
+        width: 80%;
     }
 }
