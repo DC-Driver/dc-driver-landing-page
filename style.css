@@ -166,12 +166,12 @@ h2 {
 }
 
 .section {
-    background-color: #ffffff;
+    background-color: #003A63;
     color: #003A63;
     padding: 40px;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
     text-align: left;
     transition: box-shadow 0.3s ease-in-out;
