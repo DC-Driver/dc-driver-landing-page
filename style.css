@@ -57,19 +57,21 @@ nav #contact a:hover {
 
 .download-section {
     background-color: #ffffff;
+    /* background-color: #003A63; */
     color: #003A63;
-    padding: 40px;
-    margin: auto;
-    width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* color: #ffffff; */
+    padding: 60px;
+    margin: 105px;
+    width: 30%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
     text-align: center;
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.download-section:hover {
+/* .download-section:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+} */
 
 .download-section h1 {
     color: inherit;
@@ -319,6 +321,83 @@ h2 {
     color: #282c34;
 }
 
+.content-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    align-items: center;
+}
+
+.image-section {
+    margin: 100px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.image-with-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-section img {
+    /* Your styles for the image */
+}
+
+.image-side-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.app-store-link,
+.play-store-link {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.app-store-link:hover,
+.play-store-link:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.app-store-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #003A63;
+    background: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    align-items: center;
+    width: 250px;
+}
+
+.apple-logo {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -339,6 +418,22 @@ h2 {
     .team-members {
         flex-direction: column;
         align-items: center;
+    }
+
+    .content-container {
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .download-section,
+    .image-section {
+        flex: 1;
+    }
+
+
+    .image-section {
+        padding-left: 20px;
     }
 }
 
