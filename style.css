@@ -544,6 +544,18 @@ h2 {
     .image-section {
         padding-left: 20px;
     }
+
+    .landing-container {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .image-container,
+    .buttons-container {
+        width: 100%;
+        max-width: none;
+        flex: none;
+    }
 }
 
 
