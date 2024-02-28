@@ -563,4 +563,32 @@ h2 {
     .team-section .team-member {
         width: 80%;
     }
+
+    .content-container {
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .download-section,
+    .image-section {
+        flex: 1;
+    }
+
+
+    .image-section {
+        padding-left: 20px;
+    }
+
+    .landing-container {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .image-container,
+    .buttons-container {
+        width: 100%;
+        max-width: none;
+        flex: none;
+    }
 }
