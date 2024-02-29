@@ -136,13 +136,13 @@ main .hero .download-button:hover {
 .about-section {
     background-color: #ffffff;
     color: #003A63;
-    padding: 40px;
+    padding: 0px;
     margin: 20px auto;
-    width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    width: 100%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 0px;
     text-align: left;
-    transition: box-shadow 0.3s ease-in-out;
+    /* transition: box-shadow 0.3s ease-in-out; */
 }
 
 .about-section:hover {
@@ -151,6 +151,7 @@ main .hero .download-button:hover {
 
 .about-section h1,
 h2 {
+    padding: 20px;
     text-align: center;
     color: inherit;
     margin-bottom: 16px;
@@ -163,21 +164,22 @@ h2 {
 }
 
 .logos-section {
-    background-color: #ffffff;
+    background-color: #5F6062;
     text-align: center;
-    padding: 30px 0;
+    /* padding: 0; */
 }
 
 .section {
-    background-color: #003A63;
+    /* background-color: #ffffff; */
+    background-color: #002540;
     color: #003A63;
-    padding: 40px;
-    margin: 20px auto;
-    width: 80%;
+    padding: 12px;
+    /* margin: 20px auto; */
+    width: 100%;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    border-radius: 8px;
+    border-radius: 0px;
     text-align: left;
-    transition: box-shadow 0.3s ease-in-out;
+    /* transition: box-shadow 0.3s ease-in-out; */
 }
 
 .section .content {
@@ -186,7 +188,7 @@ h2 {
 }
 
 .logos-section h2 {
-    color: #003A63;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
@@ -196,6 +198,11 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+.logos-section img {
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 .logo {
@@ -319,7 +326,7 @@ h2 {
 
 .link-button:hover {
     background-color: white;
-    color: #282c34;
+    color: #002540;
 }
 
 .content-container {
@@ -425,7 +432,7 @@ h2 {
 
 .app-store-button:hover {
     color: #fff;
-    background-color: #003A63;
+    background-color: #002540;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-decoration: none;
 }
