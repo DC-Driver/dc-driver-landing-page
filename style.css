@@ -580,6 +580,16 @@ h2 {
         max-width: none;
         flex: none;
     }
+
+    .logos-section {
+        padding: 10px 5px;
+        margin: 10px 0;
+    }
+
+    .logos-section img {
+        max-width: 80px;
+        margin: 0 10px;
+    }
 }
 
 
@@ -614,5 +624,15 @@ h2 {
         width: 100%;
         max-width: none;
         flex: none;
+    }
+
+    .logos-section {
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    .logos-section img {
+        max-width: 50px;
+        margin: 0 5px;
     }
 }
